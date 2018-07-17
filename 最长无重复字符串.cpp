@@ -45,7 +45,11 @@ int lengthOfLongestSubstring(string s)
 void main()
 {
 	int maxlen = 0;
+<<<<<<< HEAD
 	char s[20] = "abdefbbg";
+=======
+	char s[20] = "ynyo";
+>>>>>>> c7f5a31986fe3cae153605277d9a119106bdf8ab
 	//cin >> s;
 	maxlen = lengthOfLongestSubstring(s);
 	cout << maxlen << endl;
